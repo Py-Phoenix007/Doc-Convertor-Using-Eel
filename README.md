@@ -29,15 +29,6 @@ Say goodbye to clunky software and unreliable online converters! **Doc ↔ PDF C
 
 ---
 
-## 🖼 GUI Preview
-
-Experience the elegance of our interface:
-
-![Demo Screenshot](static/demo-screenshot.png)\
-📸 Replace with your own screenshot by saving it as `static/demo-screenshot.png`
-
----
-
 ## 📂 Project Structure
 
 ```plaintext
@@ -115,16 +106,6 @@ Get up and running in minutes:
 - **File Handling**: Uploaded files are temporarily stored in the `/uploads` folder.
 - **Conversion Logic**: The `main.py` script orchestrates conversions using `docx2pdf` and `pdf2docx`.
 - **Output Delivery**: Converted files are saved in the `/static` folder and available for download via the GUI.
-
----
-
-## ❗ Limitations
-
-| Feature | Support |
-| --- | --- |
-| `.docx` ➡️ `.pdf` | ✅ (Windows with MS Word required) |
-| `.pdf` ➡️ `.docx` | ✅ |
-| `.doc` ➡️ `.pdf` | ⚠️ Limited support |
 
 ---
 
